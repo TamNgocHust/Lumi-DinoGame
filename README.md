@@ -148,7 +148,7 @@ Dự án được phân tách cấu trúc rõ ràng theo chuẩn STM32CubeIDE nh
 ├── LinkerScripts/              # File phân bổ vùng nhớ Flash/RAM (.ld)
 ├── SDK_1.0.3_NUCLEO-F401RE/    # Bộ thư viện chuẩn của ST và mở rộng của Lumi
 └── README.md                   # Tài liệu hướng dẫn hệ thống
-
+```
 ## Tổng quan
 
 Người chơi có thể chọn độ khó trên màn hình menu khi mở game. Sau khi bắt đầu, người chơi điều khiển khủng long với mục tiêu nhảy qua càng nhiều xương rồng càng tốt. Game sẽ theo dõi điểm số và hiển thị trên menu. Khi thua, người chơi sẽ được hiển thị điểm hiện tại và điểm cao nhất, sau đó quay về menu.
