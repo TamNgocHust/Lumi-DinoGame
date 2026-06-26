@@ -149,18 +149,16 @@ Dự án được phân tách cấu trúc rõ ràng theo chuẩn STM32CubeIDE nh
 ├── SDK_1.0.3_NUCLEO-F401RE/    # Bộ thư viện chuẩn của ST và mở rộng của Lumi
 └── README.md                   # Tài liệu hướng dẫn hệ thống
 
-## Cách Hoạt Động
-
-### Tổng quan
+## Tổng quan
 
 Người chơi có thể chọn độ khó trên màn hình menu khi mở game. Sau khi bắt đầu, người chơi điều khiển khủng long với mục tiêu nhảy qua càng nhiều xương rồng càng tốt. Game sẽ theo dõi điểm số và hiển thị trên menu. Khi thua, người chơi sẽ được hiển thị điểm hiện tại và điểm cao nhất, sau đó quay về menu.
 
-### Yêu cầu phần mềm
+## Yêu cầu phần mềm
 
 - [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
 - [LUMI SDK](https://github.com/HD-Nam/ThuVien_SDK_1.0.3_NUCLEO-F401RE) đã clone về máy
 
-### Chi tiết kỹ thuật
+## Chi tiết kỹ thuật
 
 - **Tốc độ khung hình:** Cố định 60ms/frame (khoảng 16 FPS) cho mọi mức tốc độ
 - **Tốc độ xương rồng:** Chậm = 6 pixel/frame, Nhanh = 9 pixel/frame
